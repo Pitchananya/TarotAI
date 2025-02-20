@@ -15,14 +15,19 @@ TarotAI/
 ├─ data/                    # โฟลเดอร์เก็บ Dataset
 
 │   ├─ tarot_data.json      # ตัวอย่าง Dataset สำหรับเทรนโมเดล
+
 │   └─ example_data.csv
 
 ├─ models/                  # โฟลเดอร์เก็บโมเดล AI
+
 │   └─ lstm_model.h5        # ตัวอย่างไฟล์โมเดลที่เทรนแล้ว
 
 ├─ src/                     # โฟลเดอร์เก็บโค้ดโปรแกรม
+
 │   ├─ app.py               # โค้ดหลักของแอปพลิเคชัน
+
 │   ├─ model_training.py    # โค้ดสำหรับเทรนโมเดล LSTM
+
 │   └─ tarot_reader.py      # โค้ดสำหรับแปลความหมายไพ่
 
 ├─ requirements.txt         # รายชื่อ Libraries ที่ใช้ (เช่น TensorFlow, Flask)
